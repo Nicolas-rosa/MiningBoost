@@ -1,33 +1,36 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
-
   <ItemGroup>
+
+    <!-- BepInEx -->
     <Reference Include="BepInEx">
-      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/WorldBox/BepInEx/core/BepInEx.dll</HintPath>
+      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/worldbox/BepInEx/core/BepInEx.dll</HintPath>
     </Reference>
 
+    <!-- Harmony -->
     <Reference Include="0Harmony">
-      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/WorldBox/BepInEx/core/0Harmony.dll</HintPath>
+      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/worldbox/BepInEx/core/0Harmony.dll</HintPath>
     </Reference>
 
+    <!-- Jogo -->
     <Reference Include="Assembly-CSharp">
-      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/WorldBox/worldbox_Data/Managed/Assembly-CSharp.dll</HintPath>
+      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/worldbox/worldbox_Data/Managed/Assembly-CSharp.dll</HintPath>
     </Reference>
 
+    <!-- Unity -->
     <Reference Include="UnityEngine">
-      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/WorldBox/worldbox_Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/worldbox/worldbox_Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
 
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/WorldBox/worldbox_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>/home/castro_war/.local/share/Steam/steamapps/common/worldbox/worldbox_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
-  </ItemGroup>
 
+  </ItemGroup>
 
 </Project>
