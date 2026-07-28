@@ -8,7 +8,7 @@ using HarmonyLib;
 [BepInPlugin("castro_war.miningboost", "Mining Boost", "1.0.0")]
 public class Plugin : BaseUnityPlugin
 {
-    public static int Multiplier = 5;
+    public static int Multiplier = 100;
 
     private void Awake()
     {

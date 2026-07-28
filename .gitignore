@@ -1,0 +1,20 @@
+# Resultados de compilação do .NET
+[Bb]in/
+[Oo]bj/
+
+# IDEs e editores
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos temporários e de log
+*.log
+*.tmp
+*.cache
+
+# Pacotes locais
+*.nupkg
+*.snupkg

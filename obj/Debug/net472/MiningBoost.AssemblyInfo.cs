@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiningBoost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4299d7ffbfc71b560c995e353182ff9951f46b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b903a28e28c851699c73141861d126c7c249ff3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiningBoost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiningBoost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
